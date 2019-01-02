@@ -1,5 +1,5 @@
 # Create a class and inherit from ActiveRecord::Migration
-class CreateCostumes < ActiveRecord::Migration[4.2]
+class CreateCostumes < ActiveRecord::Migration[5.1]
 
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
