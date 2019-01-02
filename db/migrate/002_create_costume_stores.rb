@@ -9,3 +9,4 @@ def change
         c.timestamps
     end
 end
+end
