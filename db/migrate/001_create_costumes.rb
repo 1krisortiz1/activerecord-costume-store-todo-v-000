@@ -9,12 +9,13 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
 # In this change method, create columns with the correct names and
 # value types according to the spec
 
-def change
-    create_table :costumes do |c|
-        c.string :name
-        c.integer :price
-        c.string :image_url
-        c.string :size
-        c.timestamps
-end
+    def change
+        create_table :costumes do |c|
+            c.string :name
+            c.integer :price
+            c.string :image_url
+            c.string :size
+            c.timestamps
+        end
+    end
 end
